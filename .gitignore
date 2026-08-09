@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+credentials.json
+token.json
+**/secrets/
+
+# Runtime data
+data/*.db
+data/*.sqlite*
+data/cache/
+data/exports/
+!data/.gitkeep
+!data/leads.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Tooling
+.pytest_cache/
+*.egg-info/
+

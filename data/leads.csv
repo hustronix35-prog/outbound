@@ -1,0 +1,5 @@
+first_name,last_name,title,company,company_domain,linkedin_url,location,industry,employee_count,email
+Avery,Chen,VP of Sales,Cascade Labs,cascadelabs.io,https://www.linkedin.com/in/example-avery,United States,SaaS,60,
+Morgan,Shah,Head of Growth,PixelForge,pixelforge.ai,https://www.linkedin.com/in/example-morgan,United Kingdom,Software,35,
+Taylor,Brooks,Founder,QuotaKit,quotakit.com,https://www.linkedin.com/in/example-taylor,United States,SaaS,18,
+Jamie,Ortiz,Intern,Corner Cafe,cornercafe.example,https://www.linkedin.com/in/example-jamie,United States,Food,4,

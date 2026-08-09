@@ -1,0 +1,21 @@
+services:
+  gtm:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    ports:
+      - "8080:8080"
+    command: ["gtm", "daemon", "--poll", "120"]
+
+  admin:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    ports:
+      - "8080:8080"
+    profiles: ["admin"]
+    command: ["gtm", "admin", "--host", "0.0.0.0", "--port", "8080"]
